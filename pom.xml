@@ -25,8 +25,8 @@
 	</plugin>
 	<plugin>
 				<groupId>org.apache.tomcat.maven</groupId>
-                                <artifactId>tomcat8-maven-plugin</artifactId>
-                                <version>3.0-r1756463</version>
+                                <artifactId>tomcat7-maven-plugin</artifactId>
+                                <version>2.2</version>
 				<configuration>
 				<path>/${project.artifactId}##${project.version}</path>
 				<url>http://3.9.12.211:8080/manager/text</url>
