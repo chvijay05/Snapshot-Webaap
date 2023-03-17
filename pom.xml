@@ -21,11 +21,11 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-war-plugin</artifactId>
-				<version>3.8.8</version>
+				<version>3.3.1</version>
 	</plugin>
 	<plugin>
 				<groupId>org.apache.tomcat.maven</groupId>
-                                <artifactId>tomcat8.5-maven-plugin</artifactId>
+                                <artifactId>tomcat8-maven-plugin</artifactId>
                                 <version>2.2</version>
 				<configuration>
 				<path>/${project.artifactId}##${project.version}</path>
