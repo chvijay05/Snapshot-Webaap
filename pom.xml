@@ -30,10 +30,10 @@
 				<configuration>
 				<path>/${project.artifactId}##${project.version}</path>
 				<url>http://3.9.12.211:8080/manager/text</url>
-					<username>admin</username>
-					<password>adminadmin</password>
-					<update>true</update>
-				</configuration>
+			        <server>TomcatServer</server>   
+                                <username>admin</username>  
+                                <password>adminadmin</password>
+			       </configuration>
 			</plugin>
 </plugins>
 <resources>
