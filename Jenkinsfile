@@ -12,21 +12,21 @@ pipeline {
        {
        when
        {
-       branch "feature*"
+       branch "stage*"
        }
        steps
        {
-       echo " It is only for Feature branch"
+       echo " It is only for stage branch"
        }
        }
 
        stage('Deploy Code') {
 	   when
 	   {
-	   branch "master"
+	   branch "feature"
 	   	   }
           steps {
-               sh "mvn tomcat:deploy"
+               sh "mvn tomcat7:deploy"
                echo "Deploying Code"
                
           }
